@@ -25,8 +25,9 @@ function showCountriesList(resp) {
   bordersList.empty();
   resp.forEach(function(item){
      	$('<li>').text(item.name).appendTo(countriesList);
-      $('<li>').text(item.capital).appendTo(capitalList);
       $('<li>').text("Region: " + item.subregion).appendTo(countriesList);
+      $('<li>').text(item.flag).appendTo(countriesList);    
+      $('<li>').text(item.capital).appendTo(capitalList);
       $('<li>').text(item.timezones).appendTo(timezoneList);
       $('<li>').text(item.population + " people").appendTo(populationList);
       $('<li>').text(item.borders).appendTo(bordersList);
