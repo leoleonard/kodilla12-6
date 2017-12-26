@@ -1,0 +1,21 @@
+body {
+  background-color: #3131;
+  color: black;
+}
+
+.container {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.container ul {
+  background-color: white;
+  width: 300px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+}
+
+.container ul li{
+text-decoration: none;
+list-style: none;
+}
